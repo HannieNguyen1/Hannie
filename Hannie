@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hannie - A Hidden Gem in Music</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #fafafa;
+        }
+        .music-note {
+            position: absolute;
+            opacity: 0.1;
+            z-index: -1;
+        }
+        .gradient-text {
+            background: linear-gradient(45deg, #FF9A8B, #FF6B95, #FF8E53);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .hover-scale {
+            transition: transform 0.3s ease;
+        }
+        .hover-scale:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-pink-50 to-purple-50 overflow-hidden">
+        <!-- Decorative elements -->
+        <div class="music-note" style="top: 10%; left: 5%;">
+            <i data-feather="music" class="w-16 h-16 text-pink-300"></i>
+        </div>
+        <div class="music-note" style="bottom: 15%; right: 8%;">
+            <i data-feather="mic" class="w-20 h-20 text-purple-300"></i>
+        </div>
+        
+        <div class="container mx-auto px-6 text-center" data-aos="fade-up">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 gradient-text">
+                Discover Hannie
+            </h1>
+            <h2 class="text-2xl md:text-3xl font-medium text-gray-700 mb-8">
+                A Hidden Gem in Music
+            </h2>
+            <p class="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto mb-10">
+                From Vietnam to Canada, from the kitchen to the stage – join Hannie as she turns her dream into reality.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="https://pump.fun/" class="bg-pink-500 hover:bg-pink-600 text-white font-semibold py-3 px-8 rounded-full hover-scale transition-all duration-300 shadow-lg">
+                    Support on Pump.fun
+                </a>
+                <a href="#about" class="border-2 border-pink-500 text-pink-500 hover:bg-pink-50 font-semibold py-3 px-8 rounded-full hover-scale transition-all duration-300">
+                    Learn More
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0" data-aos="fade-right">
+                    <img src="https://i.imgur.com/CRGMgKl.jpeg" alt="Hannie" class="rounded-xl shadow-2xl w-full max-w-md mx-auto">
+                </div>
+                <div class="md:w-1/2 md:pl-12" data-aos="fade-left">
+                    <h2 class="text-4xl font-bold text-gray-800 mb-6">
+                        Meet <span class="gradient-text">Hannie</span>
+                    </h2>
+                    <p class="text-lg text-gray-600 mb-6">
+                        Born in Vietnam and now calling Canada home, Hannie is turning life's challenges into opportunities. After being recently laid off from her job, she's embracing this moment to pursue her true passion: music.
+                    </p>
+                    <p class="text-lg text-gray-600 mb-8">
+                        When she's not creating melodies that touch the soul, you can find her in the kitchen, crafting dishes as delightful as her songs, <span class="font-semibold text-pink-500">"Kilomet" and "Balcony"</span>
+                    </p>
+                    <div class="flex items-center space-x-4">
+                        <a href="https://twitter.com/hanniewsol" class="text-pink-500 hover:text-pink-600">
+                            <i data-feather="twitter" class="w-6 h-6"></i>
+                        </a>
+                        <span class="text-gray-500">Follow her journey @hanniewsol</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Token Section -->
+    <section class="py-20 bg-gradient-to-r from-purple-50 to-pink-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">
+                    Support Hannie with <span class="gradient-text">$HANNIE</span>
+                </h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    Join her community-powered journey to stardom
+                </p>
+            </div>
+            
+            <div class="bg-white rounded-xl shadow-xl p-8 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="100">
+                <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-8">
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800">HANNIE Token</h3>
+                        <p class="text-gray-500 text-sm mt-1">3qybsjYDzEjMR4eGfDT57uLFqjjK4jFtxwbhDKGtpump</p>
+                    </div>
+                    <div class="mt-4 md:mt-0">
+                        <a href="https://pump.fun/" class="bg-gradient-to-r from-pink-500 to-purple-500 text-white font-semibold py-3 px-6 rounded-full hover-scale transition-all duration-300 inline-block">
+                            Buy $HANNIE
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 rounded-lg p-6 mb-6">
+                    <h4 class="font-semibold text-gray-800 mb-3 flex items-center">
+                        <i data-feather="info" class="w-5 h-5 mr-2 text-pink-500"></i>
+                        Why Support Hannie?
+                    </h4>
+                    <p class="text-gray-600">
+                        By holding $HANNIE, you're directly supporting Hannie's musical journey. Your support helps her focus on creating beautiful music while building a community that grows together.
+                    </p>
+                </div>
+                
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="https://pump.fun/" class="bg-pink-500 hover:bg-pink-600 text-white font-semibold py-3 px-6 rounded-full hover-scale transition-all duration-300 text-center">
+                        <i data-feather="dollar-sign" class="inline mr-2"></i> Buy on Pump.fun
+                    </a>
+                    <a href="https://twitter.com/hanniewsol" class="border-2 border-pink-500 text-pink-500 hover:bg-pink-50 font-semibold py-3 px-6 rounded-full hover-scale transition-all duration-300 text-center">
+                        <i data-feather="twitter" class="inline mr-2"></i> Join Community
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Streaming Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0" data-aos="fade-right">
+                    <div class="bg-gray-100 rounded-xl overflow-hidden shadow-xl aspect-video flex items-center justify-center">
+                        <div class="text-center p-6">
+                            <i data-feather="video" class="w-16 h-16 text-pink-500 mx-auto mb-4"></i>
+                            <h3 class="text-2xl font-bold text-gray-800 mb-2">Live Stream</h3>
+                            <p class="text-gray-600">Catch Hannie live on Pump.fun</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2 md:pl-12" data-aos="fade-left">
+                    <h2 class="text-4xl font-bold text-gray-800 mb-6">
+                        Catch <span class="gradient-text">Hannie Live</span>
+                    </h2>
+                    <p class="text-lg text-gray-600 mb-6">
+                        Hannie streams live on Pump.fun every weekday, sharing her musical journey, performing covers, and creating original content.
+                    </p>
+                    <p class="text-lg text-gray-600 mb-8">
+                        Join her live sessions to experience her talent firsthand and be part of her growing community.
+                    </p>
+                    <a href="https://pump.fun/" class="bg-pink-500 hover:bg-pink-600 text-white font-semibold py-3 px-8 rounded-full hover-scale transition-all duration-300 inline-flex items-center">
+                        <i data-feather="play" class="mr-2"></i> Watch Hannie's Stream
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Links -->
+    <section class="py-16 bg-gradient-to-br from-pink-50 to-purple-50">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8" data-aos="fade-up">
+                Connect With Hannie
+            </h2>
+            <div class="flex justify-center space-x-6 mb-12" data-aos="fade-up" data-aos-delay="100">
+                <a href="https://twitter.com/hanniewsol" class="w-14 h-14 rounded-full bg-white shadow-md flex items-center justify-center text-pink-500 hover:bg-pink-100 transition-all hover-scale">
+                    <i data-feather="twitter"></i>
+                </a>
+                <a href="https://pump.fun/" class="w-14 h-14 rounded-full bg-white shadow-md flex items-center justify-center text-pink-500 hover:bg-pink-100 transition-all hover-scale">
+                    <i data-feather="dollar-sign"></i>
+                </a>
+                <a href="https://pump.fun/" class="w-14 h-14 rounded-full bg-white shadow-md flex items-center justify-center text-pink-500 hover:bg-pink-100 transition-all hover-scale">
+                    <i data-feather="video"></i>
+                </a>
+            </div>
+            <p class="text-gray-600 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="200">
+                Follow Hannie's journey from hidden gem to shining star. Your support means the world!
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <h3 class="text-2xl font-bold gradient-text">Hannie</h3>
+                    <p class="text-gray-400 mt-2">Music for the soul</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="https://twitter.com/hanniewsol" class="text-gray-400 hover:text-pink-400">
+                        <i data-feather="twitter"></i>
+                    </a>
+                    <a href="https://pump.fun/" class="text-gray-400 hover:text-pink-400">
+                        <i data-feather="dollar-sign"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>© 2023 Hannie. All dreams reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+        feather.replace();
+    </script>
+</body>
+</html>

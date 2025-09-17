@@ -71,7 +71,8 @@
         <div class="container mx-auto px-6">
             <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/2 mb-10 md:mb-0" data-aos="fade-right">
-                    <img src="https://i.imgur.com/CRGMgKl.jpeg" alt="Hannie" class="rounded-xl shadow-2xl w-full max-w-md mx-auto">
+                    <img src="https://i.imgur.com/43ixYxb.jpeg" alt="Hannie" class="rounded-lg shadow-lg">
+
                 </div>
                 <div class="md:w-1/2 md:pl-12" data-aos="fade-left">
                     <h2 class="text-4xl font-bold text-gray-800 mb-6">
